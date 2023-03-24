@@ -7,7 +7,7 @@ license = "MIT"
 description = "Dependency macro for enum_variant_eq"
 homepage = "https://github.com/A4-Tacks/rust-enum_variant_eq"
 repository = "https://github.com/A4-Tacks/rust-enum_variant_eq"
-keywords = ["derive", "enum", "macro", "equal", "variant"]
+readme = "./README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
