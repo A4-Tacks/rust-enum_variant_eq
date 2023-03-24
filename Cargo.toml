@@ -8,6 +8,7 @@ description = "Determining that enumerations only have Variant equal"
 homepage = "https://github.com/A4-Tacks/rust-enum_variant_eq"
 repository = "https://github.com/A4-Tacks/rust-enum_variant_eq"
 readme = "./README.md"
+keywords = ["derive", "enum", "macro", "equal", "variant"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
