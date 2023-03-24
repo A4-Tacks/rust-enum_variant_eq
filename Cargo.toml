@@ -13,4 +13,4 @@ keywords = ["derive", "enum", "macro", "equal", "variant"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-enum_variant_eq_derive = { path = "./enum_variant_eq_derive", version = "0.1.0" }
+enum_variant_eq_derive = "0.1.0"
