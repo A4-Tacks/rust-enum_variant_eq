@@ -19,3 +19,18 @@ assert!(Unit.enum_variant_eq(&Unit));
 assert!(UnNamed(5).enum_variant_eq(&UnNamed(8)));
 assert!(Named { x: 5 }.enum_variant_eq(&Named { x: 8 }));
 ```
+
+# Errors
+`EnumVariantEq` only applies to enumerations. If it is violated, the compilation will panic
+```rust
+#[derive(EnumVariantEq)]
+struct S;
+```
+```
+error: #[derive(Debug, EnumVariantEq)]
+    |                  ^^^^^^^^^^^^^
+    = help: message: Type Is Not Enum
+```
+
+# Other:
+`Build Ast Error`
