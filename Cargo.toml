@@ -1,0 +1,15 @@
+[package]
+name = "enum_variant_eq"
+version = "0.1.0"
+edition = "2021"
+
+license = "MIT"
+description = "Determining that enumerations only have Variant equal"
+homepage = "https://github.com/A4-Tacks/rust-enum_variant_eq"
+repository = "https://github.com/A4-Tacks/rust-enum_variant_eq"
+readme = "./README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+enum_variant_eq_derive = { path = "./enum_variant_eq_derive" }

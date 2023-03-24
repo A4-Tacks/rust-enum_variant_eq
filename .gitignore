@@ -1,0 +1,4 @@
+/target
+/Cargo.lock
+/enum_variant_eq_derive/Cargo.lock
+/enum_variant_eq_derive/target
