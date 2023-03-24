@@ -23,7 +23,7 @@ assert!(Named { x: 5 }.enum_variant_eq(&Named { x: 8 }));
 # Errors
 `EnumVariantEq` only applies to enumerations. If it is violated, the compilation will panic
 ```rust
-#[derive(EnumVariantEq)]
+#[derive(Debug, EnumVariantEq)]
 struct S;
 ```
 ```
